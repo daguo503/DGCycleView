@@ -14,6 +14,10 @@
 		0423410B1B5E384100C37BCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0423410A1B5E384100C37BCA /* Images.xcassets */; };
 		0423410E1B5E384100C37BCA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0423410C1B5E384100C37BCA /* LaunchScreen.xib */; };
 		0423411A1B5E384100C37BCA /* DGCycleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042341191B5E384100C37BCA /* DGCycleViewTests.m */; };
+		042341251B5E387700C37BCA /* DGCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042341241B5E387700C37BCA /* DGCycleView.m */; };
+		042341291B5E388300C37BCA /* first.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042341261B5E388300C37BCA /* first.jpg */; };
+		0423412A1B5E388300C37BCA /* second.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042341271B5E388300C37BCA /* second.jpg */; };
+		0423412B1B5E388300C37BCA /* third.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 042341281B5E388300C37BCA /* third.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		042341131B5E384100C37BCA /* DGCycleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DGCycleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042341181B5E384100C37BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042341191B5E384100C37BCA /* DGCycleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGCycleViewTests.m; sourceTree = "<group>"; };
+		042341231B5E387700C37BCA /* DGCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGCycleView.h; sourceTree = "<group>"; };
+		042341241B5E387700C37BCA /* DGCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGCycleView.m; sourceTree = "<group>"; };
+		042341261B5E388300C37BCA /* first.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = first.jpg; sourceTree = "<group>"; };
+		042341271B5E388300C37BCA /* second.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = second.jpg; sourceTree = "<group>"; };
+		042341281B5E388300C37BCA /* third.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = third.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,11 @@
 		042340FC1B5E384100C37BCA /* DGCycleView */ = {
 			isa = PBXGroup;
 			children = (
+				042341261B5E388300C37BCA /* first.jpg */,
+				042341271B5E388300C37BCA /* second.jpg */,
+				042341281B5E388300C37BCA /* third.jpg */,
+				042341231B5E387700C37BCA /* DGCycleView.h */,
+				042341241B5E387700C37BCA /* DGCycleView.m */,
 				042341011B5E384100C37BCA /* AppDelegate.h */,
 				042341021B5E384100C37BCA /* AppDelegate.m */,
 				042341041B5E384100C37BCA /* ViewController.h */,
@@ -199,9 +213,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042341291B5E388300C37BCA /* first.jpg in Resources */,
 				042341091B5E384100C37BCA /* Main.storyboard in Resources */,
 				0423410E1B5E384100C37BCA /* LaunchScreen.xib in Resources */,
 				0423410B1B5E384100C37BCA /* Images.xcassets in Resources */,
+				0423412A1B5E388300C37BCA /* second.jpg in Resources */,
+				0423412B1B5E388300C37BCA /* third.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +238,7 @@
 			files = (
 				042341061B5E384100C37BCA /* ViewController.m in Sources */,
 				042341031B5E384100C37BCA /* AppDelegate.m in Sources */,
+				042341251B5E387700C37BCA /* DGCycleView.m in Sources */,
 				042341001B5E384100C37BCA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
